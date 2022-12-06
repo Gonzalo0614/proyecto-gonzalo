@@ -74,7 +74,7 @@ main .Productsss div{
     justify-content: space-between;
 }
 main .Productsss div div{
-    margin: 15px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     border: rgb(206, 122, 136) 3px solid;
