@@ -160,7 +160,7 @@ footer section a img{
 
 @media screen and (max-width:1064px){
     /*Cuerpo*/
-    main .Productsss{
+    main .Productsss div{
         display: grid;
         grid-template-areas:
         "columna1 columna2";
