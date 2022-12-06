@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-gonzalo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gonzalo0614/proyecto-gonzalo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gonzalo0614/proyecto-gonzalo/issues"
+  },
+  "homepage": "https://github.com/Gonzalo0614/proyecto-gonzalo#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
