@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*----Encabezado-Logo-Links----*/
+
+header{
+    background-color:#FFF2BA ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo{
+    width: 250px;
+    height: 150px;
+    grid-area: logo;
+}
+
+
+header nav ul{ 
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    grid-area: links;
+}
+
+header nav ul li{
+    margin: 45px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:#a88e27 ;
+    font-size: 20px;
+    text-transform: uppercase;
+    bottom: 0%;
+    background-color: rgb(255, 206, 116);
+    height: 20px;
+    border:  2px solid;
+    border-radius: 5px ;
+    transition: 1s;
+}
+header nav ul li a:hover{
+    background-color: #8b4059;
+    color: #741d48;
+}
+/*----Main----*/
+.foto{
+    width: 100%;
+    height: 120vh;
+    background-image: url(../img/Le\ Soleil\ Products.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.productos {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    justify-content: center;
+    background-color: rgb(253, 142, 207);
+    height: 45px;
+    color: rgb(122, 234, 241);
+}
+
+main .items{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    flex-direction: center;  
+}
+main .items div{
+    display: flex;
+    flex-direction: column;
+    border: rgb(235, 126, 126) 5px solid;
+}
+main .items div img{
+    width: 320px;
+    height: 290px;
+}
+
+main .items div h3{
+    color: rgb(253, 85, 99);
+    display: flex;
+    font-size: 30px;
+    top: 0%;
+    background-color: #f58db02d;
+}
+
+main .items div a{
+    color: rgb(102, 10, 10);
+    margin: 20px 120px 20px 120px;
+    display: inline-block;
+    font-size: 25px;
+    bottom: 15px;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: rgb(150, 52, 52) 2px solid;
+    border-radius: 5px;
+    background-color: #D87093;
+    transition: 2s;
+}
+main .items div a:hover{
+    transform: scale(1.1);
+}
+
+
+/*----Footer----*/
+.contactos{
+    background-color: #8b4059;
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color:#D87093 ;
+}
+
+
+footer section a img{
+    width: 190px;
+    height: 150px;
+    margin: 15px 120px 15px 120px;
+}
+
+/*----Style Mobile----*/
+@media screen and (max-width:1310px){
+    /*Pie*/
+    footer section a img{
+        margin: 15px 100px 15px 100px;
+    }
+}
+
+@media screen and (max-width:1240px){
+    /*Cuerpo*/
+    main .items div img{
+        width: 300px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width:1178px){
+    /*Pie*/
+    footer section a img{
+        margin: 15px 80px 15px 80px;
+    }
+}
+
+@media screen and (max-width:1127px){
+    /*Cuerpo*/
+    main .items div img{
+        width: 260px;
+        height: 230px;
+    }
+    main .items div h3{
+        font-size: 25px;
+    }
+    main .items div a{
+        margin: 15px 100px 15px 100px;
+    }
+}
+
+@media screen and (max-width:1058px){
+    /*Pie*/
+    footer section a img{
+        margin:15px 60px 15px 60px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    /*Cuerpo*/
+    main .items div img{
+        width: 200px;
+        height: 170px;
+    }
+    main .items div h3{
+        font-size: 20px;
+    }
+    main .items div a{
+        margin: 15px 70px 15px 70px;
+    }
+}
+
+
+@media screen and (max-width: 941px) {
+    /*Cabeza*/
+    #cabeza{
+        display: grid;
+        grid-template-areas: 
+        "logo links";
+    }
+    header nav ul li a{
+        font-size: 15px;
+    }
+    /*Cuerpo*/
+
+    /*Pie*/
+    footer section a img{
+        margin: 10px 40px 10px 40px;
+    }
+}
+
+@media screen and (max-width: 855px){
+    /*Cabeza*/
+    header nav ul li{
+        margin: 40px 30px 40px 30px;
+    }
+    /*Cuerpo*/
+
+    /*Pie*/
+    footer section a img{
+        margin: 10px 20px 10px 20px;
+    }
+}
+
+@media screen and (max-width: 810px){
+    /*Cabeza*/
+    header nav ul li{
+        margin: 40px 20px 40px 20px;
+    }
+}
+
+@media screen and (max-width:749px){
+    /*Cabeza*/
+    header nav ul li{
+        margin: 40px 20px 40px 20px;
+    }
+    /*Cuerpo*/
+    main .items div img{
+        width: 170px;
+        height: 140px;
+    }
+    main .items div a{
+        margin: 15px 50px 15px 50px;
+        font-size: 20px;
+    }
+    /*Pie*/
+    footer section a img{
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width:678px){
+    /*Cabeza*/
+    header nav ul li{
+        margin: 40px 10px 40px 10px;
+    }
+    /*Cuerpo*/
+    .productos{
+        font-size: 30px;
+    }
+    /*Pie*/
+    .contactos{
+        font-size: 30px;
+    }
+    footer section a img{
+        width: 170px;
+        height: 130px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:649px){
+    /*Cabeza*/
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li{
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width:637px){
+    /*Cuerpo*/
+    main .items div img{
+        width: 140px;
+        height: 110px;
+    }
+    main .items div h3{
+        font-size: 15px;
+    }
+    main .items div a{
+        font-size: 15px;
+        margin: 15px 40px 15px 40px;
+    }
+    
+}
+
+@media screen and (max-width:608px){
+    /*Cabeza*/
+    
+    /*Cuerpo*/
+
+    /*Pie*/
+    footer section a img{
+        width: 150px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width:548px){
+    /*Cuerpo*/
+    main .items div img{
+        width: 110px;
+        height: 80px;
+    }
+    main .items div a{
+        margin: 15px 30px 15px 30px;
+    }
+}
+
+@media screen and (max-width:518px){
+    /*Cuerpo*/
+    .productos{
+        font-size: 25px;
+    }
+    /*Pie*/
+    .contactos{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:459px){
+    /*Cuerpo*/
+    .productos{
+        font-size: 20px;
+    }
+    main .items div img{
+        width: 80px;
+        height: 50px;
+    }
+    main .items div h3{
+        font-size: 10px;
+    }
+    main .items div a{
+        margin: 10px 20px 10px 20px;
+        font-size: 10px;
+    }
+    /*Pie*/
+    footer section a img{
+        width: 130px;
+        height: 90px;
+    }
+    .contactos{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:399px){
+    /*Pie*/
+    footer section a img{
+        width: 110px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:364px){
+    /*Cuerpo*/
+    main .items div img{
+        width: 70px;
+        height: 40px;
+    }
+    main .items div h3{
+        font-size: 8px;
+    }
+    main .items div a{
+        margin: 10px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:381px){
+    /*Cabeza*/
+    .logo{
+        width: 230px;
+    }
+    header nav ul li a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:358px){
+    /*Cabeza*/
+    .logo{
+        width: 210px;
+    }
+}
