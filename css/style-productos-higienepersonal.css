@@ -328,6 +328,23 @@ footer section a img{
     }
 }
 
+@media screen and (max-width:427px){
+    /*Cuerpo*/
+    main .Productsss div div img{
+        width: 100px;
+        height: 60px;
+    }
+    main .Productsss div div h2{
+        font-size: 8px;
+    }
+    main .Productsss div div h3{
+        font-size: 8px;
+    }
+    main .Productsss div div h4{
+        font-size: 8px;
+    }
+}
+
 @media screen and (max-width:399px){
     /*Pie*/
     footer section a img{
