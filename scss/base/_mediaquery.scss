@@ -1,0 +1,770 @@
+@media screen and (max-width:1310px){
+                footer{
+                    section{
+                        a{
+                            img{
+                                margin: 15px 100px 15px 100px;
+                            }
+                        }
+                    }
+                }
+}
+
+@media screen and (max-width:1240px){
+    .items{
+        div{
+            img{
+                width: 300px;
+                height: 270px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1178px){
+    footer{
+    section{
+        a{
+            img{
+                margin: 15px 80px 15px 80px;
+            }
+        }
+    }
+}
+}
+
+@media screen and (max-width:1127px){
+    .items{
+        div{
+            img{
+                width: 260px;
+                height: 230px;
+            }
+            h3{
+                font-size: 25px;
+            }
+            a{
+                margin: 15px 100px 15px 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1064px){
+    .Productsss{
+        div{
+            display: grid;
+            grid-template-areas:
+            "columna1 columna2";
+            justify-content: space-around;
+        }
+    }
+}
+
+@media screen and (max-width:1058px){
+    footer{
+        section{
+            a{
+                img{
+                    margin:15px 60px 15px 60px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px){
+    .items{
+        div{
+            img{
+                width: 200px;
+                height: 170px;
+            }
+            h3{
+                font-size: 20px;
+            }
+            a{
+                margin: 15px 70px 15px 70px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 941px){
+    #cabeza{
+        display: grid;
+        grid-template-areas: 
+        "logo links";
+        }
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        
+    footer{
+        section{
+            a{
+                img{
+                    margin: 10px 40px 10px 40px;
+                        }
+                    } 
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 855px){
+    header{
+        nav{
+            ul{
+                li{
+                    margin: 40px 30px 40px 30px;
+                    }
+                }
+            }
+        }
+
+
+    footer{
+        section{
+            a{
+                img{
+                    margin: 10px 20px 10px 20px;
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 810px){
+    header{
+        nav{
+            ul{
+                li{
+                    margin: 40px 20px 40px 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:797px){
+    .cuerpo-principal{
+        .que-ofrecemos{
+            div{
+                font-size: 20px;
+            }
+        }
+        .acerca-de{
+            div{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:749px){
+    header{
+        nav{
+            ul{
+                li{
+                    margin: 40px 20px 40px 20px;
+                }
+            }
+        }
+    }
+
+
+    .items{
+        div{
+            img{
+                width: 170px;
+                height: 140px;
+            }
+            a{
+                margin: 15px 50px 15px 50px;
+                font-size: 20px;
+            }
+        }
+    }
+
+
+    footer{
+        section{
+            a{
+                img{
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:735px){
+    .cuerpo-principal{
+        .que-ofrecemos{
+            div{
+                font-size: 15px;
+            }
+        }
+        .acerca-de{
+            div{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:724px){
+    header{
+        nav{
+            ul{
+                li{
+                    margin: 40px 10px 40px 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:695px){
+    .cuerpo-principal{
+        .que-ofrecemos{
+            div{
+                font-size: 10px;
+            }
+            img{
+                width: 280px;
+                height: 280px;
+            }
+        }
+        .acerca-de{
+            div{
+                font-size: 10px;
+            }
+            img{
+                width: 280px;
+                height: 280px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:678px){
+    header{
+        nav{
+            ul{
+                li{
+                    margin: 40px 10px 40px 10px;
+                }
+            }
+        }
+    }
+
+    
+    .cuerpo-principal{
+        .emprendimiento{
+            font-size: 30px;
+        }
+    }
+    .nosotres{
+        .nosotros{
+            font-size: 30px;
+        }
+    }
+    .productos{
+        font-size: 30px;
+    }
+    .higienepersonal{
+        font-size: 30px;
+    }
+    .maquillaje{
+        font-size: 30px;
+    }
+    .perfumes{
+        font-size: 30px;
+    }
+
+
+    .contactos{
+        font-size: 30px;
+    }
+    footer{
+        section{
+            a{
+                img{
+                    width: 170px;
+                    height: 130px;
+                    margin: 0;
+                };
+            }
+        }
+    }
+}
+
+@media screen and (max-width:648px){
+    .nosotres{
+        .nombre-1-3{
+            div{
+                font-size: 20px;
+            }
+        }
+        .nombre-2-4{
+            div{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:649px){
+    header{
+        nav{
+            ul{
+                flex-direction: column;
+                li{
+                    margin: 5px;
+                }
+            }
+        }
+    }
+
+
+    .cuerpo-principal{
+        .que-ofrecemos{
+            div{
+                font-size: 15px;
+            }
+            img{
+                width: 250px;
+                height: 250px;
+            }
+        }
+        .acerca-de{
+            div{
+                font-size: 15px;
+            }
+            img{
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:637px){
+    .items{
+        div{
+            img{
+                width: 140px;
+                height: 110px;
+            }
+            h3{
+                font-size: 15px;
+            }
+            a{
+                font-size: 15px;
+                margin: 15px 40px 15px 40px;
+            }
+        }
+    }    
+}
+
+@media screen and (max-width:621px){
+    .cuerpo-principal{
+        .que-ofrecemos{
+            div{
+                font-size: 15px;
+            }
+        }
+        .acerca-de{
+            div{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:608px){
+    .cuerpo-principal{
+        .emprendimiento{
+            font-size: 25px;
+        }
+    }
+    .nosotres{
+        .nosotros{
+            font-size: 25px;
+        }
+    }
+
+
+
+    footer{
+        section{
+            a{
+                img{
+                    width: 150px;
+                    height: 110px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:599px){
+    .cuerpo-principal{
+        .que-ofrecemos{
+            img{
+                width: 250px;
+                height: 250px;
+            }
+        }
+        .acerca-de{
+            img{
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:548px){
+    .items{
+        div{
+            img{
+                width: 110px;
+                height: 80px;
+            }
+            a{
+                margin: 15px 30px 15px 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:540px){
+    .nosotres{
+        .nombre-1-3{
+            div{
+                font-size: 15px;
+            }
+            img{
+                width: 200px;
+                height: 280px;
+            }
+        }
+        .nombre-2-4{
+            div{
+                font-size: 15px;
+            }
+            img{
+                width: 200px;
+                height: 280px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:552px){
+    .Productsss{
+        div{
+            div{
+                img{
+                    width: 180px;
+                    height: 140px;
+                }
+                h4{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:518px){
+    .cuerpo-principal{
+        .emprendimiento{
+            font-size: 25px;
+        }
+    }
+    .nosotres{
+        .nosotros{
+            font-size: 25px;
+        }
+    }
+    .productos{
+        font-size: 25px;
+    }
+    .higienepersonal{
+        font-size: 25px;
+    }
+    .maquillaje{
+        font-size: 25px;
+    }
+    .perfumes{
+        font-size: 25px;
+    }
+
+
+    .contactos{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:504px){
+    .cuerpo-principal{
+        .acerca-de{
+            div{
+                font-size: 10px;
+            }
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .que-ofrecemos{
+            div{
+                font-size: 10px;
+            }
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:459px){
+    .cuerpo-principal{
+        .emprendimiento{
+            font-size: 20px;
+        }
+    }
+    .nosotres{
+        .nosotros{
+            font-size: 20px;
+        }
+    }
+    .productos{
+        font-size: 20px;
+    }
+    .higienepersonal{
+        font-size: 20px;
+    }
+    .maquillaje{
+        font-size: 20px;
+    }
+    .perfumes{
+        font-size: 20px;
+    }
+    .items{
+        div{
+            img{
+                width: 80px;
+                height: 50px;
+            }
+            h3{
+                font-size: 10px;
+            }
+            a{
+                margin: 10px 20px 10px 20px;
+                font-size: 10px;
+            }
+        }
+    }
+
+
+    footer{
+        section{
+            a{
+                img{
+                    width: 130px;
+                    height: 90px;
+                }
+            }
+        }
+    }
+    .contactos{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:452px){
+    .Productosss{
+        div{
+            div{
+                img{
+                    width: 140px;
+                    height: 100px;
+                }
+                h2{
+                    font-size: 10px;
+                }
+                h3{
+                    font-size: 10px;
+                }
+                h4{
+                    font-size: 10px;
+                }
+                h4{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:417px){
+    .nosotres{
+        .nombre-1-3{
+            img{
+                width: 200px;
+            }
+        }
+        .nombre-2-4{
+            img{
+                width: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:399px){
+    footer{
+        section{
+            a{
+                img{
+                    width: 110px;
+                    height: 70px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:391px){
+    .cuerpo-principal{
+        .acerca-de{
+            div{
+                font-size: 8px;
+            }
+        }
+        .que-ofrecemos{
+            div{
+                font-size: 8px;
+            }
+        }
+    }
+    .nosotres{
+        .nombre-1-3{
+            div{
+                font-size: 8px;
+                h3{
+                    font-size: 10px;
+                }
+            }
+            img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .nombre-2-4{
+            div{
+                font-size: 8px;
+                h3{
+                    font-size: 10px;
+                }
+            }
+            img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:387px){
+    header{
+        .logo{
+            width: 240px;}
+    }
+}
+
+@media screen and (max-width:381px){
+    .logo{
+        width: 230px;
+    }
+    header{
+        nav{
+            ul{
+                li{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:378px){
+    header{
+        .logo{
+            width: 180px;
+        }
+    }
+}
+
+@media screen and (max-width:365px){
+    .cuerpo-principal{
+        .acerca-de{
+            div{
+                font-size: 6px;
+                h3{
+                    font-size: 10px;
+                }
+            }
+        }
+        .que-ofrecemos{
+            div{
+                font-size: 6px;
+                h3{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:364px){
+    .items{
+        div{
+            img{
+                width: 70px;
+                height: 40px;
+            }
+            h3{
+                font-size: 8px;
+            }
+            a{
+                margin: 10px;
+                font-size: 8px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:358px){
+    header{
+        .logo{
+            width: 160px;
+            }
+    }
+}
