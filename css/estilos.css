@@ -3,6 +3,7 @@
   padding: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
+/*----Lista de Colores----*/
 header {
   background-color: #FFF2BA;
   width: 100%;
@@ -539,27 +540,25 @@ footer {
     font-size: 20px; } }
 
 @media screen and (max-width: 452px) {
-  .Productosss div div img {
-    width: 140px;
-    height: 100px; }
-  .Productosss div div h2 {
+  .Productsss div div img {
+    width: 120px;
+    height: 80px; }
+  .Productsss div div h2 {
     font-size: 10px; }
-  .Productosss div div h3 {
+  .Productsss div div h3 {
     font-size: 10px; }
-  .Productosss div div h4 {
-    font-size: 10px; }
-  .Productosss div div h4 {
+  .Productsss div div h4 {
     font-size: 10px; } }
 
 @media screen and (max-width: 427px) {
-  .Productosss div div img {
+  .Productsss div div img {
     width: 100px;
     height: 60px; }
-  .Productosss div div h2 {
+  .Productsss div div h2 {
     font-size: 8px; }
-  .Productosss div div h3 {
+  .Productsss div div h3 {
     font-size: 8px; }
-  .Productosss div div h4 {
+  .Productsss div div h4 {
     font-size: 8px; } }
 
 @media screen and (max-width: 417px) {
