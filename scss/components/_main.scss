@@ -16,15 +16,15 @@ main{
         align-items: center;
         font-size: 35px;
         justify-content: center;
-        background-color: rgb(253, 142, 207);
+        background-color: $color-cuarto;
         height: 45px;
-        color: rgb(122, 234, 241);
+        color: $color-terciario;
     }
     .acerca-de{
         margin: 15px;
         display: flex;
         justify-content: space-between;
-        border: 10px aquamarine solid;
+        border: 10px $color-quinto;
         img{
             display: flex;
             justify-content: start;
@@ -44,7 +44,7 @@ main{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        border: 10px aquamarine solid;
+        border: 10px $color-quinto;
         img{
             display: flex;
             justify-content: start;
@@ -67,15 +67,15 @@ main{
         align-items: center;
         font-size: 35px;
         justify-content: center;
-        background-color: rgb(253, 142, 207);
+        background-color: $color-cuarto;
         height: 45px;
-        color: rgb(122, 234, 241);
+        color: $color-terciario;
     }
     .nombre-1-3{
         margin: 15px;
         display: flex;
         justify-content: space-between;
-        border: 10px aquamarine solid;
+        border: 10px $color-quinto;
         img{
             display: flex;
             justify-content: start;
@@ -98,7 +98,7 @@ main{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        border: 10px aquamarine solid;
+        border: 10px $color-quinto;
         img{
             display: flex;
             justify-content: end;
@@ -123,9 +123,9 @@ main{
     align-items: center;
     font-size: 35px;
     justify-content: center;
-    background-color: rgb(253, 142, 207);
+    background-color: $color-cuarto;
     height: 45px;
-    color: rgb(122, 234, 241);
+    color: $color-terciario;
 }
 
 .items{
@@ -173,27 +173,27 @@ main{
     align-items: center;
     font-size: 35px;
     justify-content: center;
-    background-color: rgb(253, 142, 207);
+    background-color: $color-cuarto;
     height: 45px;
-    color: rgb(122, 234, 241);
+    color: $color-terciario;
 }
 .maquillaje{
     display: flex;
     align-items: center;
     font-size: 35px;
     justify-content: center;
-    background-color: rgb(253, 142, 207);
+    background-color:$color-cuarto;
     height: 45px;
-    color: rgb(122, 234, 241);
+    color: $color-terciario;
 }
 .perfumes{
     display: flex;
     align-items: center;
     font-size: 35px;
     justify-content: center;
-    background-color: rgb(253, 142, 207);
+    background-color:$color-cuarto;
     height: 45px;
-    color: rgb(122, 234, 241);
+    color: $color-terciario;
 }
 
 .Columna1{
