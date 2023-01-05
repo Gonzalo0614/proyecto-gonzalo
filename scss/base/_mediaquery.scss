@@ -238,20 +238,18 @@
 @media screen and (max-width:695px){
     .cuerpo-principal{
         .que-ofrecemos{
-            div{
-                font-size: 10px;
-            }
             img{
-                width: 280px;
+                width: 100%;
                 height: 280px;
             }
         }
         .acerca-de{
+            flex-direction: column;
             div{
-                font-size: 10px;
+                font-size: 20px;
             }
             img{
-                width: 280px;
+                width: 100%;
                 height: 280px;
             }
         }
@@ -340,21 +338,17 @@
 
     .cuerpo-principal{
         .que-ofrecemos{
-            div{
-                font-size: 15px;
-            }
+            flex-direction: column;
             img{
-                width: 250px;
-                height: 250px;
+                width: 100%;
+                height: 240px;
             }
         }
         .acerca-de{
-            div{
-                font-size: 15px;
-            }
+            flex-direction: column;
             img{
-                width: 250px;
-                height: 250px;
+                width: 100%;
+                height: 240px;
             }
         }
     }
@@ -378,20 +372,6 @@
     }    
 }
 
-@media screen and (max-width:621px){
-    .cuerpo-principal{
-        .que-ofrecemos{
-            div{
-                font-size: 15px;
-            }
-        }
-        .acerca-de{
-            div{
-                font-size: 15px;
-            }
-        }
-    }
-}
 
 @media screen and (max-width:608px){
     .cuerpo-principal{
@@ -420,22 +400,7 @@
 
 }
 
-@media screen and (max-width:599px){
-    .cuerpo-principal{
-        .que-ofrecemos{
-            img{
-                width: 250px;
-                height: 250px;
-            }
-        }
-        .acerca-de{
-            img{
-                width: 250px;
-                height: 250px;
-            }
-        }
-    }
-}
+
 
 @media screen and (max-width:552px){
     .Productosss{
@@ -470,21 +435,17 @@
 @media screen and (max-width:540px){
     .nosotres{
         .nombre-1-3{
-            div{
-                font-size: 15px;
-            }
+            flex-direction: column;
             img{
-                width: 200px;
-                height: 280px;
+                width: 100%;
+                height: 240px;
             }
         }
         .nombre-2-4{
-            div{
-                font-size: 15px;
-            }
+            flex-direction: column;
             img{
-                width: 200px;
-                height: 280px;
+                width: 100%;
+                height: 240px;
             }
         }
     }
@@ -536,28 +497,6 @@
     }
 }
 
-@media screen and (max-width:504px){
-    .cuerpo-principal{
-        .acerca-de{
-            div{
-                font-size: 10px;
-            }
-            img{
-                width: 150px;
-                height: 150px;
-            }
-        }
-        .que-ofrecemos{
-            div{
-                font-size: 10px;
-            }
-            img{
-                width: 150px;
-                height: 150px;
-            }
-        }
-    }
-}
 
 @media screen and (max-width:459px){
     .cuerpo-principal{
@@ -658,20 +597,6 @@
     }
 }
 
-@media screen and (max-width:417px){
-    .nosotres{
-        .nombre-1-3{
-            img{
-                width: 200px;
-            }
-        }
-        .nombre-2-4{
-            img{
-                width: 200px;
-            }
-        }
-    }
-}
 
 @media screen and (max-width:399px){
     footer{
@@ -686,46 +611,7 @@
     }
 }
 
-@media screen and (max-width:391px){
-    .cuerpo-principal{
-        .acerca-de{
-            div{
-                font-size: 8px;
-            }
-        }
-        .que-ofrecemos{
-            div{
-                font-size: 8px;
-            }
-        }
-    }
-    .nosotres{
-        .nombre-1-3{
-            div{
-                font-size: 8px;
-                h3{
-                    font-size: 10px;
-                }
-            }
-            img{
-                width: 100px;
-                height: 100px;
-            }
-        }
-        .nombre-2-4{
-            div{
-                font-size: 8px;
-                h3{
-                    font-size: 10px;
-                }
-            }
-            img{
-                width: 100px;
-                height: 100px;
-            }
-        }
-    }
-}
+
 
 @media screen and (max-width:387px){
     header{
@@ -757,26 +643,7 @@
     }
 }
 
-@media screen and (max-width:365px){
-    .cuerpo-principal{
-        .acerca-de{
-            div{
-                font-size: 6px;
-                h3{
-                    font-size: 10px;
-                }
-            }
-        }
-        .que-ofrecemos{
-            div{
-                font-size: 6px;
-                h3{
-                    font-size: 10px;
-                }
-            }
-        }
-    }
-}
+
 
 @media screen and (max-width:364px){
     .items{
